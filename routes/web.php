@@ -18,19 +18,19 @@ use Illuminate\Support\Facades\Route;
 Route::post('/user/checkout-cart','UserController@checkoutCart')->name('checkoutCart');
 
 //Route update sản phẩm trong giỏ hàng.
-Route::get('/user/update-product-cart/{rowId}/{qty}','Usercontroller@updateProductInCart');
+Route::get('/user/update-product-cart/{rowId}/{qty}','UserController@updateProductInCart');
 
 // Route xóa sản phẩm trong giỏ hàng
-Route::delete('/user/delete-cart/{rowid}', 'Usercontroller@productDelete');
+Route::delete('/user/delete-cart/{rowid}', 'UserController@productDelete');
 
 // View Sale.
-Route::get('/user/product-sale','Usercontroller@getProductSale')->name('viewSaleClient');
+Route::get('/user/product-sale','UserController@getProductSale')->name('viewSaleClient');
 
 // View bài viết
-Route::get('/user/blog','Usercontroller@getBlog')->name('viewBlogClient');
+Route::get('/user/blog','UserController@getBlog')->name('viewBlogClient');
 
 // View liên hệ
-Route::get('/user/contact','Usercontroller@getContact')->name('viewContactClient');
+Route::get('/user/contact','UserController@getContact')->name('viewContactClient');
 
 // Admin Product
 Route::delete('/admin/product/delete-all', "ProductController@destroyMany");
@@ -52,10 +52,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 //Route update sản phẩm trong giỏ hàng.
-Route::get('user/update-product-cart/{rowId}/{qty}', 'Usercontroller@updateProductInCart');
+Route::get('user/update-product-cart/{rowId}/{qty}', 'UserController@updateProductInCart');
 
 // Route xóa sản phẩm trong giỏ hàng
-Route::delete('/user/delete-cart/{rowid}', 'Usercontroller@productDelete');
+Route::delete('/user/delete-cart/{rowid}', 'UserController@productDelete');
 
 //Route Checkout giỏ hàng.
 Route::post('/user/checkout-cart', 'UserController@checkoutCart')->name('checkoutCart');
@@ -77,7 +77,7 @@ Route::get('/hanastore/cart', 'UserController@getCart')->name('giohang');
 Route::post('/hanastore/add-cart/{id}', 'UserController@productBuy');
 
 // Route view list sản phẩm Client
-Route::get('/hanastore/list-product', 'Usercontroller@listProduct')->name('listProductClient');
+Route::get('/hanastore/list-product', 'UserController@listProduct')->name('listProductClient');
 
 // Route view sản phẩm chi tiết Client
 Route::get('/hanastore/product/{id}', 'UserController@getProductDetail');
