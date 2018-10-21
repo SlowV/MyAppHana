@@ -396,14 +396,14 @@
 
 @section('javascript')
     <!--===============================================================================================-->
-    <script type="text/javascript" src="{{asset('')}}vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/jquery/jquery-3.2.1.min.js')}}"></script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="{{asset('')}}vendor/animsition/js/animsition.min.js"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/animsition/js/animsition.min.js')}}"></script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="{{asset('')}}vendor/bootstrap/js/popper.js"></script>
-    <script type="text/javascript" src="{{asset('')}}vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/bootstrap/js/popper.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/bootstrap/js/bootstrap.min.js')}}"></script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="{{asset('')}}vendor/select2/select2.min.js"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/select2/select2.min.js')}}"></script>
     <script type="text/javascript">
         $(".selection-1").select2({
             minimumResultsForSearch: 20,
@@ -411,14 +411,14 @@
         });
     </script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="{{asset('vendor/slick/slick.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/slick-custom.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/slick/slick.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('js/slick-custom.js')}}"></script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="{{asset('vendor/countdowntime/countdowntime.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/countdowntime/countdowntime.js')}}"></script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="{{asset('vendor/lightbox2/js/lightbox.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/lightbox2/js/lightbox.min.js')}}"></script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="{{asset('vendor/sweetalert/sweetalert.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/sweetalert/sweetalert.min.js')}}"></script>
     <script type="text/javascript">
         $('.block2-btn-addwishlist').each(function () {
             var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
@@ -430,14 +430,14 @@
     </script>
 
     <!--===============================================================================================-->
-    <script src="{{asset('js/main.js')}}"></script>
+    <script src="{{secure_asset('js/main.js')}}"></script>
     <!--===============================================================================================-->
-    <script src="{{asset('js/home-user.js')}}"></script>
+    <script src="{{secure_asset('js/home-user.js')}}"></script>
     <!--===============================================================================================-->
     <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r75/three.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/bas.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/OrbitControls-2.js"></script>
-    <script src="{{asset('js/effects.js')}}"></script>
+    <script src="{{secure_asset('js/effects.js')}}"></script>
 @endsection

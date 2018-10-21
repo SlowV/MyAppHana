@@ -11,7 +11,6 @@ class CollectionSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('collections')->truncate();
         DB::table('collections')->insert([
             [
                 'id'=>1,
