@@ -57,7 +57,7 @@
 
 @section('content')
     <!-- Title Page -->
-    <section class="bg-title-page p-t-50 p-b-40 flex-col-c-m" style="background-image: url('{{asset('img/bg-list.jpg')}}');">
+    <section class="bg-title-page p-t-50 p-b-40 flex-col-c-m" style="background-image: url('{{secure_asset('img/bg-list.jpg')}}');">
         <h2 class="l-text2 t-center">
             Hana Store
         </h2>
