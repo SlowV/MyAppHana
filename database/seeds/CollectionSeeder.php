@@ -11,7 +11,6 @@ class CollectionSeeder extends Seeder
      */
     public function run()
     {
-        DB::statement('SET FOREIGN_KEY_CHECKS = 0');
         DB::table('collections')->truncate();
         DB::table('collections')->insert([
             [
@@ -39,6 +38,5 @@ class CollectionSeeder extends Seeder
                 'images' => 'collection4.jpg'
             ],
         ]);
-        DB::statement('SET FOREIGN_KEY_CHECKS = 1');
     }
 }
