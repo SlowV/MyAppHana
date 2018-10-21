@@ -99,7 +99,7 @@
           <entry key="dummy" value="30" />
           <entry key="env" value="115" />
           <entry key="js" value="8539" />
-          <entry key="php" value="31564" />
+          <entry key="php" value="31576" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -109,7 +109,7 @@
           <entry key="CSS" value="1220" />
           <entry key="HTML" value="40" />
           <entry key="JavaScript" value="8539" />
-          <entry key="PHP" value="12263" />
+          <entry key="PHP" value="12275" />
           <entry key="PLAIN_TEXT" value="140" />
         </counts>
       </usages-collector>
@@ -194,8 +194,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/seeds/ProductSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="266" column="30" selection-start-line="266" selection-start-column="30" selection-end-line="266" selection-end-column="30" />
+            <state relative-caret-position="-54">
+              <caret line="261" column="30" selection-start-line="261" selection-start-column="30" selection-end-line="261" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -658,18 +658,18 @@
       <workItem from="1538738017060" duration="1369000" />
       <workItem from="1538739954997" duration="55000" />
       <workItem from="1538740504688" duration="36000" />
-      <workItem from="1540136529720" duration="4387000" />
+      <workItem from="1540136529720" duration="4557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390213000" />
+    <option name="totallyTimeSpent" value="390383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29198185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29198185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1014,8 +1014,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/ProductSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="266" column="30" selection-start-line="266" selection-start-column="30" selection-end-line="266" selection-end-column="30" />
+        <state relative-caret-position="-54">
+          <caret line="261" column="30" selection-start-line="261" selection-start-column="30" selection-end-line="261" selection-end-column="30" />
         </state>
       </provider>
     </entry>
