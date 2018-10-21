@@ -33,7 +33,7 @@
     <div class="wrap_header">
         <!-- Logo -->
         <a href="{{route('homeClient')}}" class="logo">
-            <img src="{{asset('images/icons/logo.png')}}" alt="IMG-LOGO">
+            <img src="{{secure_asset('images/icons/logo.png')}}" alt="IMG-LOGO">
         </a>
 
         <!-- Menu --> <!-- Menu máy tính bình thường hoặc nhỏ hơn xíu-->
@@ -91,7 +91,7 @@
         <div class="header-icons">
             @guest
                 <a href="javascript:void(0)" class="header-wrapicon1 dis-block user-account">
-                    <img src="{{asset('images/icons/icon-header-01.png')}}" class="header-icon1" alt="ICON">
+                    <img src="{{secure_asset('images/icons/icon-header-01.png')}}" class="header-icon1" alt="ICON">
                 </a>
             @else
                 <li class="nav-item dropdown">
@@ -116,7 +116,7 @@
             <span class="linedivide1"></span>
 
             <div class="header-wrapicon2" id="cart-icon-header">
-                <img src="{{asset('images/icons/icon-header-02.png')}}" class="header-icon1 js-show-header-dropdown"
+                <img src="{{secure_asset('images/icons/icon-header-02.png')}}" class="header-icon1 js-show-header-dropdown"
                      alt="ICON">
                 <span class="header-icons-noti" id="header-icons-noti">{{$countItemCart}}</span>
 

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="{{asset("img/favicon.ico")}}">
+    <link rel="icon" type="image/png" href="{{secure_asset("img/favicon.ico")}}">
     <title>Hana Store</title>
 
     <!-- Fonts -->
@@ -109,5 +109,5 @@
 </div>
 </body>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-<script src="{{asset('js/welcome.js')}}"></script>
+<script src="{{secure_asset('js/welcome.js')}}"></script>
 </html>

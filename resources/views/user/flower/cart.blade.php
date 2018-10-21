@@ -3,33 +3,33 @@
 @section('page-title', 'Giỏ hàng - Hana Store')
 
 @section('css')
-    <link rel="stylesheet" type="text/css" href="{{asset('vendor/bootstrap/css/bootstrap.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('vendor/bootstrap/css/bootstrap.css')}}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('fonts/themify/themify-icons.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('fonts/themify/themify-icons.css')}}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('fonts/Linearicons-Free-v1.0.0/icon-font.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('fonts/Linearicons-Free-v1.0.0/icon-font.min.css')}}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('fonts/elegant-font/html-css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('fonts/elegant-font/html-css/style.css')}}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('vendor/animate/animate.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('vendor/animate/animate.css')}}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('vendor/css-hamburgers/hamburgers.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('vendor/css-hamburgers/hamburgers.min.css')}}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('vendor/animsition/css/animsition.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('vendor/animsition/css/animsition.min.css')}}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('vendor/select2/select2.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('vendor/select2/select2.min.css')}}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('vendor/daterangepicker/daterangepicker.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('vendor/daterangepicker/daterangepicker.css')}}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('vendor/slick/slick.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('vendor/slick/slick.css')}}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('vendor/lightbox2/css/lightbox.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('vendor/lightbox2/css/lightbox.min.css')}}">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/util.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/main.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/user-cart.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/util.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/main.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/user-cart.css')}}">
 @endsection
 
 @section('content')
@@ -245,16 +245,16 @@
 
 @section('javascript')
     <!--===============================================================================================-->
-    <script type="text/javascript" src="{{asset('vendor/jquery/jquery-3.2.1.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/jquery/jquery-3.2.1.min.js')}}"></script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="{{asset('vendor/animsition/js/animsition.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/animsition/js/animsition.min.js')}}"></script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="{{asset('vendor/bootstrap/js/popper.js')}}"></script>
-    <script type="text/javascript" src="{{asset('vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/bootstrap/js/popper.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/bootstrap/js/bootstrap.min.js')}}"></script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="{{asset('vendor/select2/select2.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('vendor/sweetalert/sweetalert.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/select2/select2.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('vendor/sweetalert/sweetalert.min.js')}}"></script>
     <!--===============================================================================================-->
-    <script src="{{asset('js/main.js')}}"></script>
-    <script src="{{asset('js/cart.js')}}"></script>
+    <script src="{{secure_asset('js/main.js')}}"></script>
+    <script src="{{secure_asset('js/cart.js')}}"></script>
 @endsection

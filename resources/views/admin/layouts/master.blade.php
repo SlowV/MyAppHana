@@ -11,33 +11,33 @@
     <meta name="viewport" content="width=device-width"/>
 
     {{--Bootstrap core CSS--}}
-    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet"/>
+    <link href="{{secure_asset('css/bootstrap.min.css')}}" rel="stylesheet"/>
 
     {{--Animation library for notifications--}}
-    <link href="{{asset('css/animate.min.css')}}" rel="stylesheet"/>
+    <link href="{{secure_asset('css/animate.min.css')}}" rel="stylesheet"/>
 
     {{--Light Bootstrap Table core CSS--}}
-    <link href=" {{asset("css/light-bootstrap-dashboard.css?v=1.4.0")}}" rel="stylesheet"/>
+    <link href=" {{secure_asset("css/light-bootstrap-dashboard.css?v=1.4.0")}}" rel="stylesheet"/>
 
     {{--CSS for Demo Purpose, don't include it in your project     --}}
-    <link href=" {{asset("css/demo.css")}}" rel="stylesheet"/>
+    <link href=" {{secure_asset("css/demo.css")}}" rel="stylesheet"/>
 
     {{--Fonts and icons     --}}
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-    <link href="{{asset("css/pe-icon-7-stroke.css")}}" rel="stylesheet"/>
-    <link rel="stylesheet" href="{{asset("css/style.css")}}">
+    <link href="{{secure_asset("css/pe-icon-7-stroke.css")}}" rel="stylesheet"/>
+    <link rel="stylesheet" href="{{secure_asset("css/style.css")}}">
 
 </head>
 <body class="">
 
 <div class="wrapper">
-    <div class="sidebar" data-image="{{asset("img/bg-menu.jpg")}}" >
+    <div class="sidebar" data-image="{{secure_asset("img/bg-menu.jpg")}}" >
         {{--Có thể dùng data-color="blue | azure | green | orange | red | purple" --}}
         <div class="sidebar-wrapper" style="overflow: hidden">
             <div class="logo">
                 <a href="/admin/product" class="simple-text">
-                    <img src="{{asset("img/logo.png")}}" style="height: 50px;">
+                    <img src="{{secure_asset("img/logo.png")}}" style="height: 50px;">
                     {{--<small class="text-muted">{{__('menu.admin')}}</small>--}}
                 </a>
             </div>
@@ -370,24 +370,24 @@
 </body>
 
 {{--Core JS Files--}}
-<script src="{{asset("js/jquery.3.2.1.min.js")}}" type="text/javascript"></script>
-<script src="{{asset("js/bootstrap.min.js")}}" type="text/javascript"></script>
+<script src="{{secure_asset("js/jquery.3.2.1.min.js")}}" type="text/javascript"></script>
+<script src="{{secure_asset("js/bootstrap.min.js")}}" type="text/javascript"></script>
 
 {{--Charts Plugin--}}
-<script src="{{asset("js/chartist.min.js")}}"></script>
+<script src="{{secure_asset("js/chartist.min.js")}}"></script>
 
 {{--Notifications Plugin--}}
-<script src="{{asset("js/bootstrap-notify.js")}}"></script>
+<script src="{{secure_asset("js/bootstrap-notify.js")}}"></script>
 
 {{--Google Maps Plugin--}}
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 
 {{--Light Bootstrap Table Core javascript and methods for Demo purpose--}}
-<script src="{{asset("js/light-bootstrap-dashboard.js?v=1.4.0")}}"></script>
+<script src="{{secure_asset("js/light-bootstrap-dashboard.js?v=1.4.0")}}"></script>
 
 {{--Light Bootstrap Table DEMO methods, don't include it in your project! --}}
-<script src="{{asset("js/demo.js")}}"></script>
-<script src="{{asset('js/index.js')}}"></script>
+<script src="{{secure_asset("js/demo.js")}}"></script>
+<script src="{{secure_asset('js/index.js')}}"></script>
 </html>
 
 
