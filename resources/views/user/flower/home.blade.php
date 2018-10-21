@@ -127,7 +127,8 @@
                                                 style="text-transform: lowercase">vnđ</span>
                                     </span>
                                     <span class="block2-sale m-text6 p-r-5" style="color: #F8A300;text-transform: lowercase">
-                                        {{$item->discountPriceString}}
+                                        {{number_format($item->sale,0,',','.')}}<span
+                                                style="text-transform: lowercase">vnđ</span>
                                     </span>
                                 @endif
                             </div>
@@ -195,7 +196,8 @@
                                                         style="text-transform: lowercase">vnđ</span>
                                             </span>
                                             <span class="block2-sale m-text6 p-r-5" style="color: #F8A300;text-transform: lowercase">
-                                                {{$item->discountPriceString}}
+                                                {{number_format($item->sale,0,',','.')}}<span
+                                                        style="text-transform: lowercase">vnđ</span>
                                             </span>
                                         @endif
                                     </div>
@@ -273,7 +275,8 @@
                                                         style="text-transform: lowercase">vnđ</span>
                                             </span>
                                             <span class="block2-sale m-text6 p-r-5" style="color: #F8A300;text-transform: lowercase">
-                                                {{$item->discountPriceString}}
+                                                {{number_format($item->sale,0,',','.')}}<span
+                                                        style="text-transform: lowercase">vnđ</span>
                                             </span>
                                         @endif
                                     </div>
