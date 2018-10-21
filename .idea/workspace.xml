@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a56a0c9c-56d0-4405-b6cf-32b5969ca1d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,14 +76,14 @@
           <entry key="js" value="102" />
           <entry key="json" value="2" />
           <entry key="lock" value="1" />
-          <entry key="php" value="642" />
+          <entry key="php" value="643" />
           <entry key="png" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="4" />
-          <entry key="Blade" value="271" />
+          <entry key="Blade" value="272" />
           <entry key="CSS" value="102" />
           <entry key="HTML" value="3" />
           <entry key="Image" value="27" />
@@ -99,7 +99,7 @@
           <entry key="dummy" value="30" />
           <entry key="env" value="115" />
           <entry key="js" value="8539" />
-          <entry key="php" value="31582" />
+          <entry key="php" value="31586" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -109,7 +109,7 @@
           <entry key="CSS" value="1220" />
           <entry key="HTML" value="40" />
           <entry key="JavaScript" value="8539" />
-          <entry key="PHP" value="12281" />
+          <entry key="PHP" value="12285" />
           <entry key="PLAIN_TEXT" value="140" />
         </counts>
       </usages-collector>
@@ -136,7 +136,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-42">
@@ -146,15 +146,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/user/flower/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2402">
+              <caret line="278" column="63" selection-start-line="278" selection-start-column="63" selection-end-line="278" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2548">
-              <caret line="396" column="40" selection-start-line="396" selection-start-column="40" selection-end-line="396" selection-end-column="40" />
+            <state relative-caret-position="865">
+              <caret line="120" column="45" selection-start-line="120" selection-start-column="45" selection-end-line="120" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -237,7 +246,6 @@
         <option value="$PROJECT_DIR$/resources/views/admin/flower/list.blade.php" />
         <option value="$PROJECT_DIR$/public/css/light-bootstrap-dashboard.css" />
         <option value="$PROJECT_DIR$/public/css/demo.css" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/user/flower/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/flower/slide.blade.php" />
@@ -260,6 +268,7 @@
         <option value="$PROJECT_DIR$/resources/views/user/flower/home.blade.php" />
         <option value="$PROJECT_DIR$/database/seeds/ProductSeeder.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
       </list>
     </option>
   </component>
@@ -616,12 +625,12 @@
       <workItem from="1538738017060" duration="1369000" />
       <workItem from="1538739954997" duration="55000" />
       <workItem from="1538740504688" duration="36000" />
-      <workItem from="1540136529720" duration="5255000" />
+      <workItem from="1540136529720" duration="5321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="391081000" />
+    <option name="totallyTimeSpent" value="391147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -911,17 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/flower/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="278" column="63" lean-forward="true" selection-start-line="278" selection-start-column="63" selection-end-line="278" selection-end-column="63" />
-          <folding>
-            <element signature="e#15183#15216#0#HTML" expanded="true" />
-            <element signature="e#15680#15713#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_10_045715_create_products_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102" />
@@ -958,13 +956,6 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2548">
-          <caret line="396" column="40" selection-start-line="396" selection-start-column="40" selection-end-line="396" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/user/flower/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -976,6 +967,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-42">
           <caret line="79" column="53" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/flower/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2402">
+          <caret line="278" column="63" selection-start-line="278" selection-start-column="63" selection-end-line="278" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="120" column="45" selection-start-line="120" selection-start-column="45" selection-end-line="120" selection-end-column="45" />
         </state>
       </provider>
     </entry>

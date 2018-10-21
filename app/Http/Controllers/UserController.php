@@ -118,7 +118,7 @@ class UserController extends Controller
                     'id' => $id,
                     'name' => $product->name,
                     'qty' => 1,
-                    'price' => $product->price - $product->price * $product->sale / 100,
+                    'price' => $product->sale,
                     'options' => array(
                         'img' => $product->images
                     )
