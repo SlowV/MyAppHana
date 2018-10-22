@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a56a0c9c-56d0-4405-b6cf-32b5969ca1d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/fonts/HELP-US-OUT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/screen-reader.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/scss/font-awesome.scss" beforeDir="false" />
-    </list>
+    <list default="true" id="a56a0c9c-56d0-4405-b6cf-32b5969ca1d6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +15,7 @@
     <session id="-1559283578">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="64" />
+          <entry key="project.closed" value="65" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="13" />
           <entry key="project.open.time.12" value="2" />
@@ -207,7 +169,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/user/flower/product-list.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
+            <state relative-caret-position="129">
               <caret line="59" column="106" selection-start-line="59" selection-start-column="106" selection-end-line="59" selection-end-column="106" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -421,7 +383,7 @@
       <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="806" />
@@ -687,17 +649,17 @@
       <workItem from="1538738017060" duration="1369000" />
       <workItem from="1538739954997" duration="55000" />
       <workItem from="1538740504688" duration="36000" />
-      <workItem from="1540136529720" duration="5879000" />
+      <workItem from="1540136529720" duration="5897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="391705000" />
+    <option name="totallyTimeSpent" value="391723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29198185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29198185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -710,7 +672,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29146537" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29146537" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1038,7 +1000,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/user/flower/product-list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
+        <state relative-caret-position="129">
           <caret line="59" column="106" selection-start-line="59" selection-start-column="106" selection-end-line="59" selection-end-column="106" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
