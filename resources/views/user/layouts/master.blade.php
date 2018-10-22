@@ -8,8 +8,15 @@
     <!--===============================================================================================-->
     <link rel="icon" type="image/png" href="{{secure_asset("img/favicon.ico")}}"/>
     <!--===============================================================================================-->
+
     @yield('css')
     <!--===============================================================================================-->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat&subset=vietnamese');
+        *{
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
 </head>
 <body class="animsition style4">
 <script>
