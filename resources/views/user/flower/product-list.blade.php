@@ -3,6 +3,7 @@
 @section('page-title', 'Danh sách sản phẩm - Hana Store')
 
 @section('css')
+
     <link rel="stylesheet" type="text/css" href="{{secure_asset('vendor/bootstrap/css/bootstrap.css')}}">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="{{secure_asset('fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
@@ -29,6 +30,10 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="{{secure_asset('css/util.css')}}">
     <link rel="stylesheet" type="text/css" href="{{secure_asset('css/main.css')}}">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <style>
         .img-fly{
             position: absolute;
