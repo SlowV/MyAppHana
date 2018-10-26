@@ -24,7 +24,7 @@
             <div class="topbar-language rs1-select2">
                 <select class="selection-1" name="time">
                     <option value="1">VN</option>
-                    {{--<option value="2">EN</option>--}}
+                    <option value="2">EN</option>
                 </select>
             </div>
         </div>
@@ -51,7 +51,7 @@
                     </li>
 
                     <li class="{{url()->current() == route('saleClient')?'sale-noti':''}}">
-                        <a href="{{route('saleClient')}}">Sale</a>
+                        <a href="/hanastore/sale">Sale</a>
                     </li>
 
                     <li>
@@ -77,11 +77,11 @@
                     </li>
 
                     <li class="{{url()->current() == route('blogClient')?'sale-noti':''}}">
-                        <a href="{{route('blogClient')}}">Bài viết</a>
+                        <a href="/hanastore/blog">Bài viết</a>
                     </li>
 
                     <li class="{{url()->current() == route('contactClient')?'sale-noti':''}}">
-                        <a href="{{route('contactClient')}}">Liên hệ</a>
+                        <a href="/hanastore/contact">Liên hệ</a>
                     </li>
                 </ul>
             </nav>
@@ -214,7 +214,7 @@
                     </div>
                     <ul>
                         <li>
-                            <a href="{{route('facebook.login')}}">
+                            <a href="auth/facebook">
                                 <span></span>
                                 <span></span>
                                 <span></span>
