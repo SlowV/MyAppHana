@@ -166,7 +166,7 @@
                     <div class="header-cart-buttons">
                         <div class="header-cart-wrapbtn" style="margin-left: 25%">
                             <!-- Button -->
-                            <a href="{{route('giohang')}}"
+                            <a href="/hanastore/cart"
                                class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
                                 giỏ hàng
                             </a>
