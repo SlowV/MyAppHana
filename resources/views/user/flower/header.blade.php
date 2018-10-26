@@ -32,7 +32,7 @@
 
     <div class="wrap_header">
         <!-- Logo -->
-        <a href="{{route('homeClient')}}" class="logo">
+        <a href="/hanastore/home" class="logo">
             <img src="{{secure_asset('images/icons/logo.png')}}" alt="IMG-LOGO">
         </a>
 
@@ -41,12 +41,12 @@
             <nav class="menu">
                 <ul class="main_menu">
                     <li class="{{url()->current() == route('homeClient')?'sale-noti':''}}">
-                        <a href="{{route('homeClient')}}">Trang chủ</a>
+                        <a href="/hanastore/home">Trang chủ</a>
 
                     </li>
 
                     <li class="{{url()->current() == route('listProductClient')?'sale-noti':''}}">
-                        <a href="{{route('listProductClient')}}">Danh sách</a>
+                        <a href="/hanastore/list-product">Danh sách</a>
 
                     </li>
 
